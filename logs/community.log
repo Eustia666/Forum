@@ -1,0 +1,79 @@
+2022-04-08 10:50:18.074  INFO 13172 --- [restartedMain] cn.chonglang.forum.CommunityApplication  : Starting CommunityApplication on LAPTOP-8J022DFC with PID 13172 (E:\ChonglangForum\target\classes started by ASUS in E:\ChonglangForum)
+2022-04-08 10:50:18.110  INFO 13172 --- [restartedMain] cn.chonglang.forum.CommunityApplication  : No active profile set, falling back to default profiles: default
+2022-04-08 10:50:18.317  INFO 13172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-08 10:50:18.317  INFO 13172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-08 10:50:23.632  INFO 13172 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa24ce13] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-08 10:50:24.659  INFO 13172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-08 10:50:24.707  INFO 13172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-08 10:50:24.707  INFO 13172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2022-04-08 10:50:24.840  INFO 13172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-08 10:50:24.855  INFO 13172 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6538 ms
+2022-04-08 10:50:26.654  INFO 13172 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-04-08 10:50:26.724  INFO 13172 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-08 10:50:26.806  INFO 13172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-08 10:50:26.916  INFO 13172 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-08 10:50:26.998  INFO 13172 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2022-04-08 10:50:28.276  INFO 13172 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-04-08 10:50:28.308  INFO 13172 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-04-08 10:50:28.340  INFO 13172 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-04-08 10:50:28.549  INFO 13172 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2022-04-08 10:50:28.549  INFO 13172 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2022-04-08 10:50:28.549  INFO 13172 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2022-04-08 10:50:28.565  INFO 13172 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2022-04-08 10:50:28.582  INFO 13172 --- [scheduling-1] cn.chonglang.forum.schedule.HotTagTasks  : hotTagSchedule start Fri Apr 08 10:50:28 CST 2022
+2022-04-08 10:50:28.656  INFO 13172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-08 10:50:28.657  INFO 13172 --- [restartedMain] cn.chonglang.forum.CommunityApplication  : Started CommunityApplication in 11.405 seconds (JVM running for 15.866)
+2022-04-08 10:50:28.673  WARN 13172 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-08 10:50:28.673  INFO 13172 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-08 10:50:29.209  INFO 13172 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-08 10:50:29.294  INFO 13172 --- [scheduling-1] cn.chonglang.forum.schedule.HotTagTasks  : hotTagSchedule stop Fri Apr 08 10:50:29 CST 2022
+2022-04-08 10:50:29.294  INFO 13172 --- [scheduling-1] c.c.forum.schedule.LoginUserTasks        : loginUserSchedule start Fri Apr 08 10:50:29 CST 2022
+2022-04-08 10:50:29.391  INFO 13172 --- [scheduling-1] c.c.forum.schedule.LoginUserTasks        : loginUserSchedule stop Fri Apr 08 10:50:29 CST 2022
+2022-04-08 10:50:58.843  INFO 13172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-08 10:50:58.848  INFO 13172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-08 10:50:58.850  INFO 13172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-08 10:50:59.840  WARN 13172 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2022-04-08 11:43:50.526  INFO 408 --- [restartedMain] cn.chonglang.forum.CommunityApplication  : Starting CommunityApplication on LAPTOP-8J022DFC with PID 408 (E:\ChonglangForum\target\classes started by ASUS in E:\ChonglangForum)
+2022-04-08 11:43:50.530  INFO 408 --- [restartedMain] cn.chonglang.forum.CommunityApplication  : No active profile set, falling back to default profiles: default
+2022-04-08 11:43:50.620  INFO 408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-08 11:43:50.621  INFO 408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-08 11:43:57.129  INFO 408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$126a543b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-08 11:43:58.565  INFO 408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-08 11:43:58.612  INFO 408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-08 11:43:58.612  INFO 408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2022-04-08 11:43:58.966  INFO 408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-08 11:43:58.966  INFO 408 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8345 ms
+2022-04-08 11:44:01.437  INFO 408 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-04-08 11:44:01.629  INFO 408 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-08 11:44:01.721  INFO 408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-08 11:44:01.909  INFO 408 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-08 11:44:02.010  INFO 408 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2022-04-08 11:44:02.437  INFO 408 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-04-08 11:44:02.468  INFO 408 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-04-08 11:44:02.543  INFO 408 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-04-08 11:44:02.756  INFO 408 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2022-04-08 11:44:02.767  INFO 408 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2022-04-08 11:44:02.778  INFO 408 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2022-04-08 11:44:02.789  INFO 408 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2022-04-08 11:44:02.818  INFO 408 --- [scheduling-1] cn.chonglang.forum.schedule.HotTagTasks  : hotTagSchedule start Fri Apr 08 11:44:02 CST 2022
+2022-04-08 11:44:02.860  INFO 408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-08 11:44:02.866  INFO 408 --- [restartedMain] cn.chonglang.forum.CommunityApplication  : Started CommunityApplication in 13.07 seconds (JVM running for 15.969)
+2022-04-08 11:44:02.876  WARN 408 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-08 11:44:02.877  INFO 408 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-08 11:44:03.203  INFO 408 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-08 11:44:03.232  INFO 408 --- [scheduling-1] cn.chonglang.forum.schedule.HotTagTasks  : hotTagSchedule stop Fri Apr 08 11:44:03 CST 2022
+2022-04-08 11:44:03.233  INFO 408 --- [scheduling-1] c.c.forum.schedule.LoginUserTasks        : loginUserSchedule start Fri Apr 08 11:44:03 CST 2022
+2022-04-08 11:44:03.240  INFO 408 --- [scheduling-1] c.c.forum.schedule.LoginUserTasks        : loginUserSchedule stop Fri Apr 08 11:44:03 CST 2022
+2022-04-08 11:44:55.873  INFO 408 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-08 11:44:55.873  INFO 408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-08 11:44:55.883  INFO 408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-04-08 11:44:56.768  WARN 408 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2022-04-08 11:45:02.744  WARN 408 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2022-04-08 11:45:03.385  WARN 408 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2022-04-08 11:45:03.799  WARN 408 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2022-04-08 11:45:04.117  WARN 408 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2022-04-08 11:45:04.331  WARN 408 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2022-04-08 11:45:04.579  WARN 408 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2022-04-08 11:45:04.851  WARN 408 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2022-04-08 11:45:05.111  WARN 408 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2022-04-08 11:45:05.347  WARN 408 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
